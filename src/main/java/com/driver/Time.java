@@ -14,6 +14,7 @@ public class Time {
         if(HH.length()==1) HH='0'+HH;
         String MM=String.valueOf(mm);
         if(MM.length()==1) MM='0'+MM;
+        HH=HH+':';
         return HH+MM;
     }
 }
